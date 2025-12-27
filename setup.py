@@ -13,7 +13,8 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 install_requires = [
     "jsonschema",
-    "numpy<2.4",
+    "numpy",
+    "numba>0.54.0",
     "opencv-python-headless",
     "pillow",
     "pooch",
